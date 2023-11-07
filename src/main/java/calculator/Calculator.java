@@ -11,6 +11,6 @@ public class Calculator {
         if (discount > 100) {
             throw new ArithmeticException("It very big discount!");
         }
-        return sum - (sum * discount);
+        return sum - (sum * discount)/100;
     }
 }
