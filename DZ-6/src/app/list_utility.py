@@ -2,9 +2,9 @@ class ListUtility:
 
     def __init__(self, list1: list, list2: list):
         self.list1 = list1
-        self.list1_average = get_average(list1)
+        self.list1_average = self.get_average(list1)
         self.list2 = list2
-        self.list2_average = get_average(list2)
+        self.list2_average = self.get_average(list2)
 
     @staticmethod
     def get_average(list_number):
