@@ -6,4 +6,9 @@ b. Сравнивает эти средние значения и выводит
 - ""Средние значения равны"", если средние значения списков равны.
 
 # Отчет о выполнении задания
- ## Код программы расположен в репозитории 
+ + Код программы расположен в репозитории по [ссылке](https://github.com/ErmolaevaOlga/Testing/blob/homework6/DZ-6/src/list_utility.py)
+ + Код тестов к написанному коду расположен по [ссылке](https://github.com/ErmolaevaOlga/Testing/blob/homework6/DZ-6/tests/test_list_utility.py)
+ + Отчет pylint ![pylint](pylint.jpg)
+ + Отчет о покрытии тестами ![coverage](coverage.jpg)
+ + Объяснение того, какие сценарии покрыты тестами и почему
+
