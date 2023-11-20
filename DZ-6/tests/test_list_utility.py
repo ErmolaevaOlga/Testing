@@ -1,4 +1,4 @@
-from list_utility import ListUtility
+from src.list_utility import ListUtility
 import pytest
 
 
@@ -20,7 +20,7 @@ def fill_list(request):
 
 @pytest.mark.parametrize("fill_list", [
     ([1, 2, 3], [1, 2, 3]),
-    ([3, 2, 1], [2, 2, 2]),
+    ([2], [2, 2, 2]),
     ([5, 10, 15], [3, 7, 20])
     ], indirect=True)
 def test_compare_lists_equality(fill_list):
